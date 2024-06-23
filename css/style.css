@@ -1,0 +1,46 @@
+body {
+    background-color: #91d5e6;
+  background-image: url('../img/paw.png');
+  background-position: top corner;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40rem;
+  overflow: hidden;
+  height: 700px;
+ 
+}
+.card-body::-webkit-scrollbar {
+ display: none; /* making the scroll bar invisible*/
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.card-body {
+  overflow-y: auto; /* Allow vertical scrolling */
+
+}
+
+
+.para {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 20px ;
+  padding-right: 20px;
+  font-size: 20px;
+  opacity: 0;                      /*setting the opacity to 0*/
+  transition: opacity 0.1s ease;  /*adding transistion */
+}
+
+.para.show {
+  opacity: 1;                     /*button when clicked it will add a class show and change the opacity to 1*/
+}
