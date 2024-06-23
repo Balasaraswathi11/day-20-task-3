@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .card {
@@ -23,20 +24,22 @@ body {
 .button {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 20px;
 }
 .card-body {
   overflow-y: auto; /* Allow vertical scrolling */
 
 }
 
-
+.paradiv{
+  margin-top: 30px;
+}
 .para {
   text-align: center;
   padding-bottom: 40px;
   padding-left: 20px ;
   padding-right: 20px;
-  font-size: 20px;
+  font-size: 15px;
   opacity: 0;                      /*setting the opacity to 0*/
   transition: opacity 0.1s ease;  /*adding transistion */
 }
