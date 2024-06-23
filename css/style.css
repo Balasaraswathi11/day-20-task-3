@@ -13,7 +13,7 @@ body {
 .card {
   width: 40rem;
   overflow: hidden;
-  height: 700px;
+  height: 650px;
  
 }
 .card-body::-webkit-scrollbar {
